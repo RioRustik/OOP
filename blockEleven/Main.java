@@ -1,7 +1,9 @@
 package ru.kusiapkulov.blockEleven;
 
-import ru.kusiapkulov.blockEleven.all.*;
+import ru.kusiapkulov.blockEleven.main.*;
 
+import java.math.BigDecimal;
+import java.math.BigInteger;
 import java.util.Arrays;
 
 public class Main {
@@ -110,6 +112,7 @@ public class Main {
 //        System.out.println(l1);
 //        System.out.println(sum(l, l1));
 
+
     }
     //11.5 Измерение длины.
     public static int sum(TotalLength...arr)
@@ -137,9 +140,9 @@ public class Main {
     }
 
     //сложение
-    public static float sum(Number ...arr)
+    public static double sum(Number ...arr)
     {
-        float res = 0;
+        double res = 0;
         for(Number i:arr)
             res += i.floatValue();
         return res;

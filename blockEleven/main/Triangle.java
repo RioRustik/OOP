@@ -1,4 +1,4 @@
-package ru.kusiapkulov.blockEleven.all;
+package ru.kusiapkulov.blockEleven.main;
 
 import static java.lang.Math.sqrt;
 

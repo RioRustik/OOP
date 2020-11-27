@@ -1,4 +1,4 @@
-package ru.kusiapkulov.blockEleven.all;
+package ru.kusiapkulov.blockEleven.main;
 
 public class Rectangle implements Test, Area
 {

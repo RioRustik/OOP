@@ -1,4 +1,4 @@
-package ru.kusiapkulov.blockEleven.all;
+package ru.kusiapkulov.blockEleven.main;
 
 abstract class Weapon implements TestShoot {
     private int ammo;
